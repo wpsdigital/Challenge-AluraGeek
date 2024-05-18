@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <header>
+        <td>
+            <img class="imagemlogo" src="/img/image 1.png">
+        </td>
+        <div class="home">AluraGeek</div>
+    </header>
+    <main>
+        <!--Produtos-->
+        <div class="produtos">
+            <h2>MEUS PRODUTOS:</h2>
+        </div>
+
+        <!--Formulario-->
+        <form class="formulario" data-formulario>
+            <h2>ADICIONAR PRODUTO:</h2>
+            <input required type="text" placeholder="nome..." id="nome" name="nome" maxlength="47" data-nome="">
+            <span class="mensage-error"></span>
+            <input required type="number" placeholder="valor..." id="valor" name="valor" data-valor="">
+            <span class="mensage-error"></span>
+            <input required type="text" placeholder="imagen..." id="imagen" name="imagen" data-imagen="">
+            <span class="mensage-error"></span>
+            <div class="botones">
+                <input type="submit" value="Guardar" id="guardar">
+                <input type="reset" value="Limpar" id="limpar">
+            </div>
+            <span class="mensaje-enviado"></span> 
+            
+        </form>
+        <div>
+            <footer>
+                <h1>AluraGeek</h1>
+                <h2>Desenvolvido por Wendell Pires</h2>
+                <br>
+                <h3>Alura Latam - 2024</h3>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
